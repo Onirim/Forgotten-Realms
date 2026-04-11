@@ -17,7 +17,7 @@ const MAP_CONFIG = {
     {
       key:         'feerune',              // ← identifiant unique, ne pas changer si données existantes
       name:        'Féérune',     // ← nom affiché dans le sélecteur
-      image:       '/Camply/pictures/feerune.jpg',
+      image:       './pictures/feerune.jpg',
       imageWidth:  10375,
       imageHeight: 7826,
     },
