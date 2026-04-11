@@ -67,7 +67,7 @@ Par niveau de danger, on entend le niveau de l’adversaire dans le cas d’une 
 
 Les procédures de combat sont découpées en rounds d’approximativement 10 secondes. Durant chaque round, un personnage peut effectuer une action de combat.
 
-# Initiative
+## Initiative
 
 L’initiative permet de définir l’ordre des actions durant un round chaotique de combat. Pour déterminer l’initiative, chaque personnage (ou groupe de personnages si le MJ le désire) lance 1d10. La plus haute valeur agira en premier (et les ex-æquo agiront en même temps). Il y a quelques exceptions toutefois :
 
@@ -76,22 +76,22 @@ L’initiative permet de définir l’ordre des actions durant un round chaotiqu
 - Un personnage de grande taille gagne toujours l’initiative au premier tour contre un personnage de taille moyenne ou petite, sauf si ce dernier manie une arme d’hast.
 - Un personnage souhaitant lancer un sort doit annoncer qu’il débute l’incantation dès le début de la phase d’initiative, avant de lancer les dés.
 
-# Actions de combat
+## Actions de combat
 
 Chaque personnage peut exécuter une action de combat durant le round. Ces actions sont décrites ci-après.
 
-## Attaquer
+### Attaquer
 
 Le personnage peut effectuer une attaque de mêlée ou à distance, ce qui inclue un déplacement jusqu’à la moitié de sa valeur de mouvement au maximum. 
 
 - **Pour une attaque de mêlée**, on lance 1d20 + Base de Toucher + Modificateur de force. Si le résultat égale ou dépasse la CA de l’adversaire, l’attaque porte et les dégâts s’appliquent (le modificateur de force s’applique aux dégâts).
 - **Pour une attaque à distance**, on lance 1d20 + Base de Toucher + Modificateur de dextérité. Si le résultat égale ou dépasse la CA de l’adversaire, l’attaque porte et les dégâts s’appliquent (le modificateur de force s’applique aux dégâts uniquement pour les armes de jet, pas pour les armes de trait).
 
-## Lancer un sort
+### Lancer un sort
 
 Le personnage peut lancer un sort, mais ne peut pas se déplacer au cours de son round. Le sort lancé peut nécessiter plusieurs rounds d’incantation. Dans ce cas le lanceur de sort risque d’être interrompu (et le sort perdu) s’il subit un point de dégât ou rate un jet de sauvegarde durant les rounds d’incantation.
 
-## Se déplacer
+### Se déplacer
 
 Le personnage se concentre sur son déplacement uniquement et peut parcourir une distance dépendante de son mouvement.
 
@@ -99,73 +99,73 @@ Le personnage se concentre sur son déplacement uniquement et peut parcourir une
 - Le personnage peut courir sur une distance de deux fois son mouvement.
 - Le personnage peut également sprinter sur une distance de quatre fois son mouvement.
 
-## Utiliser une capacité
+### Utiliser une capacité
 
 Le personnage peut utiliser une de ses capacités. En général le personnage peut également se déplacer jusqu’à sa valeur de mouvement.
 
-## Utiliser un objet
+### Utiliser un objet
 
 Prendre et boire une potion, manipuler une baguette de projectile de feu sont des exemples d’utilisations d’objets. Cette action de combat ne permet pas de se déplacer.
 
-## Effectuer une manœuvre de combat
+### Effectuer une manœuvre de combat
 
 Voir plus bas.
 
-# Manœuvres de combat
+## Manœuvres de combat
 
 Il est possible d’utiliser des manœuvres de combat lorsque l’on recherche un effet spécifique. Les manœuvres de combat ci-après sont des exemples et ne sont pas une liste exhaustive. Soyez créatifs !
 
-## Charger
+### Charger
 
 Un personnage qui se déplace à vitesse de course ou de sprint peut charger son adversaire. Le personnage obtient alors un bonus de +2 aux dégâts mais un malus de -4 à sa CA pour le tour. Si le personnage qui charge est blessé durant sa charge, il perd son bonus de dégât de charge (mais peut tout de même porter son attaque).
 
-## Viser un point critique
+### Viser un point critique
 
 Au contact comme à distance, il est possible de tenter d’infliger une blessure plus grave en visant un point sensible. Viser un point critique impose un malus de -8 au toucher, mais permet à l’attaque d’infliger double dégâts.
 
-## Tirer dans la mêlée
+### Tirer dans la mêlée
 
 Si un personnage souhaite aider ses camarades au contact en tirant sur leurs adversaires, il s’agit d’un tir dans la mêlée. Dans ce cas, l’attaque a lieu normalement, mais si le résultat du dé d’attaque donne 2, 3 ou 4 (non modifié) alors un nouveau jet d’attaque est réalisé à l’encontre d’un des alliés du personnage engagé dans la mêlée.
 
-## Se défendre
+### Se défendre
 
 Un personnage peut souhaiter son round sur sa défense en esquivant ou parant son ou ses adversaires. Le personnage renonce à attaquer et ne peut pas se déplacer, il obtient soit +2 à la CA contre 3 adversaires, soit +4 à la CA contre un seul adversaire (qu’il doit désigner).
 
-## Désarmer
+### Désarmer
 
 Un guerrier, rôdeur, chevalier, voleur, assassin, clerc ou paladin peut tenter de désarmer son adversaire. Pour se faire, il doit réussir un jet de toucher d’une difficulté de 15+niveau de la cible+modificateur de dextérité de la cible.
 
-## Attaquer de flanc ou par derrière
+### Attaquer de flanc ou par derrière
 
 Une attaque de flanc sur un adversaire obtient un bonus de +1 au jet de toucher, une attaque par derrière obtient un bonus de +2. Ce bonus ne s’ajoute pas aux bonus d’attaque par derrière des voleurs et des assassins, dont il fait déjà partie.
 
-## Posture offensive
+### Posture offensive
 
 En prenant une posture offensive, un personnage peut sacrifier sa défense au profit de son attaque. Dans ce cas, le personnage gagne +3 au toucher pour le round, mais perd -6 à la CA pour le round également.
 
-## Pousser l’adversaire
+### Pousser l’adversaire
 
 Un personnage peut décider de pousser l’adversaire au lieu de le blesser. Il peut le faire avec un malus de -2 à son jet d’attaque. S’il touche, il repousse effectivement son adversaire de 1d3 mètres en arrière.
 
-## Réceptionner une charge
+### Réceptionner une charge
 
 Avec une arme d’hast apprêtée en plantant le talon de l’arme dans le sol et en la maintenant avec le pied, il est possible de réceptionner la charge d’un adversaire. Dans ce cas, si l’attaque touche, elle fait double dommages.
 
-## Coup de bouclier
+### Coup de bouclier
 
 Un personnage équipé d’un bouclier peut tenter de sonner son adversaire. Il doit réussir un jet d’attaque avec un malus de -6. S’il touche, la cible a le droit à un jet de sauvegarde de constitution pour éviter d’être sonnée pendant 1d2 rounds.
 
-## Croc-en-jambe
+### Croc-en-jambe
 
 Un personnage peut tenter de faire chuter son adversaire en réussissant un jet d’attaque de difficulté 15+niveau de la cible+dextérité de la cible. Cela n’occasionne aucun dégât mais la cible chute au sol.
 
 Se relever d’un croc-en-jambe nécessite un demi mouvement et attaquer dans la foulée se fait avec un malus de -2. Par contre, si un adversaire se trouve au contact de celui qui tente de se relever, cela lui prend un mouvement complet et ne peut se faire qu’avec un jet de sauvegarde de dextérité réussi.
 
-## Combattre à deux armes
+### Combattre à deux armes
 
 Lorsqu’un personnage souhaite combattre à deux armes, sa première arme subit un malus de -3, et la seconde de -6. De plus, c’est la dextérité, et non la force, qui devient le modificateur du jet de toucher (mais c’est toujours celui de force qui s’applique aux dégâts).
 
-## Rompre une mêlée
+### Rompre une mêlée
 
 Un personnage qui souhaite se désengager d’une mêlée peut la rompre via cette manœuvre. Dans ce cas, il renonce à son attaque et peut se déplacer de la moitié de son mouvement pour s’éloigner de son adversaire. 
 
