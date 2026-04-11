@@ -113,7 +113,7 @@ body::before {
 #view-documents, #view-doc-editor, #view-doc-reader,
 #view-campaigns, #view-campaign-detail, #view-campaign-editor,
 #view-map, #view-rulebook {
-  position: relative;
+ /* position: relative; */
   z-index: 1;
 }
 
