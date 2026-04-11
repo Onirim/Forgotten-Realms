@@ -17,18 +17,18 @@ const MAP_CONFIG = {
     {
       key:         'feerune',              // ← identifiant unique, ne pas changer si données existantes
       name:        'Féérune',     // ← nom affiché dans le sélecteur
-      image:       './pictures/feerune.jpg',
+      image:       './pictures/maps/feerune.jpg',
       imageWidth:  10375,
       imageHeight: 7826,
     },
     // Décommentez et remplissez pour ajouter d'autres cartes :
-    //{
-    //  key:         'city',
-    //  name:        'City',
-    //  image:       '/Camply/pictures/city.png',
-    //  imageWidth:  4372,
-    //  imageHeight: 3836,
-    //},
+    {
+      key:         'larmil',
+      name:        'Vallée du Larmil',
+      image:       './pictures/maps/larmil.png',
+      imageWidth:  2508,
+      imageHeight: 1773,
+    },
     // {
     //   key:         'dungeon',
     //   name:        'Donjon',
