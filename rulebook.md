@@ -63,6 +63,22 @@ Difficulté = 15 + la moitié du niveau de danger arrondi à l’inférieur.
 
 Par niveau de danger, on entend le niveau de l’adversaire dans le cas d’une confrontation, le niveau du magicien pour résister à un sort, le niveau du donjon lors des interactions avec ce dernier, etc. Par exemple, résister à un sort lancé par un magicien de niveau 5 est d’une difficulté 17 (15 + 5/2 arrondi à l’inférieur).
 
+# Les compétences secondaires
+
+Un aventurier ne se résume pas aux connaissances liées à sa seule classe : il peut également posséder des connaissances et compétences liées à sa vie civile première (avant qu’il ne devienne aventurier) ou liées à ses passions et passe-temps.
+
+Un personnage peut choisir jusqu’à deux compétences secondaires. S’il y a besoin de les tester, elles offrent un bonus de +2 aux jets.
+
+## Exemples de compétences secondaires
+
+- **Lecture/écriture (INT)** : seuls les chevaliers, bardes, magiciens, illusionnistes et clercs apprennent a lire au cours de leur apprentissage de classe. Tout autre personnage souhaitant savoir lire et écrire doit prendre la compétence de lecture/écriture.
+- **Cuisine (SAG)** : tout le monde sait faire cuire de la viande ou bouillir des légumes pour faire une soupe. Mais seuls ceux possédant la compétence de cuisine savent créer un repas savoureux et rendre mangeable des aliments qui ne semblent pas l’être.
+- **Navigation (INT)** : savoir se repérer aux étoiles, lire une carte, définir un cap et le conserver, en mer comme sur terre.
+- **Dressage (CHA)** : savoir élever et dresser des animaux, apprendre des tours aux animaux les plus intelligents.
+- **Danse (DEX)** : connaître les danses complexes, savoir les pratiquer pour captiver un public. Savoir concevoir de nouvelles danses.
+- **Peinture (CHA)** : savoir préparer et exécuter une peinture, depuis les croquis préliminaires jusqu’aux finitions.
+- **Chasse (SAG)** : permet de trouver du gibier pour se nourrir soi et son groupe. 8h de chasse permettent de nourrir 2d4 personnes.
+
 # Le combat
 
 Les procédures de combat sont découpées en rounds d’approximativement 10 secondes. Durant chaque round, un personnage peut effectuer une action de combat.
@@ -170,3 +186,77 @@ Lorsqu’un personnage souhaite combattre à deux armes, sa première arme subit
 Un personnage qui souhaite se désengager d’une mêlée peut la rompre via cette manœuvre. Dans ce cas, il renonce à son attaque et peut se déplacer de la moitié de son mouvement pour s’éloigner de son adversaire. 
 
 Un personnage qui quitte une mêlée sans la rompre subit une attaque d’opportunité de dos immédiate de la part de son adversaire (avec un bonus au toucher de +2 donc).
+
+# Santé et soins
+
+Un personnage possède autant de dés de vie que son niveau (ajustés par son modificateur de constitution). A chaque nouveau niveau, le nouveau total de dés de vie sont lancés, ajustés par le modificateur de constitution, et ce total devient la nouvelle valeur des points de vie maximum du personnage. Si le nouveau total est moins élevé que le précédent, alors le précédent augmente de 1 point.
+
+## Points de vie
+
+Les points de vie représentent à la fois le potentiel d’esquive issu de l’expérience et les blessures superficielles subies durant les combats. Tant qu’un personnage possède des points de vie, il peut agir normalement.
+
+### 0 points de vie
+
+Un personnage possédant 0 points de vie est aux portes de l’inconscience, il peut uniquement ramper jusqu’à la fin de la scène (ou du combat) et perd connaissance ensuite. Il ne reprendra conscience qu’1d6 heures plus tard. Même ainsi, le personnage ne pourra se déplacer qu’à la moitié de sa mouvement et ne pourra ni combattre, ni lancer de sorts.
+
+### -1 à -6 points de vie
+
+Le personnage est inconscient et gravement blessé. Il lui faudra 24 heures pour commencer à guérir naturellement. Si un sort ou un effet magique lui rend des points de vie, cela pourra ramener le personnage qu’au maximum à 0 points de vie, après quoi les règles de l’état 0 points de vie prennent la suite.
+
+### -7 à -9 points de vie
+
+Le personnage est mourant et perd 1 point de vie par round. Se porter au secours du personnage (ce qui prend un round complet de combat) permet de le stabiliser et d’arrêter immédiatement la perte de points de vie. Une fois stabilisé, les règles de l’état -1 à -6 points de vie s’appliquent.
+
+### -10 points de vie
+
+Le personnage rend son dernier souffle. A ce stade, seuls les sorts de Réincarnation, de Résurrection ou une supplique au MJ pourront le sauver.
+
+## Soins et guérison
+
+La guérison naturelle ne peut commencer que si les blessures ont été traitées (ce qui nécessite des bandages et de l’eau). Pour chaque journée où le personnage se repose dans un confort relatif (au chaud et nourrit), il récupère 1 point de vie. Après une semaine de repos, le bonus de constitution (s’il est positif) est ajouté aux points de vie récupérés chaque jour. Après deux semaines les points de vie récupérés doublent, et ils triplent après une semaine.
+
+Le MJ peut attribuer un bonus aux points de vie récupérés dans certains cas (soigné dans un temple ou un dispensaire, avec l’aide de décoctions, etc.).
+
+# La vision et la lumière
+
+La distance à laquelle on peut voir dépend de la quantité de lumière disponible ainsi que du type de vision que l’on possède. Certaines créatures ont la capacité de voir dans l’obscurité ou dans des environnements où la vision humaine normale est inefficace. Il existe cinq types de vision : vision normale, vision dans le noir, vision crépusculaire, vision nocturne et vision de demi-jour.
+
+## Vision normale
+
+Sans obstacle physique, un humain normal sur une plaine dégagée peut voir jusqu’à l’horizon. Sur une planète comme la Terre, cela représente environ 5 kilomètres (à cause de sa courbure). La capacité à discerner les détails dépend de la luminosité et de la température ambiante. C’est la vision des humains et des demi-elfes.
+
+## Vision crépusculaire
+
+Sous la lumière des étoiles, de la lune ou dans des conditions de faible luminosité, ces créatures possèdent une excellente vision. Elles peuvent distinguer les couleurs et les détails jusqu’à une distance d’environ 1,5 kilomètre en extérieur. Les elfes possèdent généralement la vision nocturne.
+
+## Vision dans le noir
+
+À l’image de la vision des profondeurs, certaines créatures peuvent voir dans une obscurité totale jusqu’à une distance de 18 mètres. Les images sont perçues en nuances de gris, mais la perception reste similaire à une vision normale. Ces créatures se débrouillent sans lumière. Comme pour la vision profonde, les lumières vives gênent leur perception, et une minute d’adaptation est nécessaire après l’extinction de la lumière pour recouvrer leur vision nocturne. C’est la vision des gnomes et des demi-orques.
+
+## Vision des profondeurs
+
+Des siècles passés sous terre, dans des lieux sombres et silencieux, ont conféré à certaines créatures la capacité de voir dans des ténèbres que l’œil humain ne pourrait percer. Cette vision s’étend jusqu’à 36 mètres dans l’obscurité la plus totale. Les couleurs s’estompent et les objets apparaissent en nuances de gris. Elle fonctionne autrement comme une vision normale, permettant aux créatures d’agir sans aucune lumière. Les sources de lumière vive comme les lanternes perturbent cette vision. Une créature doit attendre une minute après extinction de la lumière pour récupérer pleinement sa vision dans le noir. Il s’agit de la vision que possèdent les nains.
+
+## Vision à la tombée de la nuit
+
+Les halfelins, grâce à leurs grands yeux perçants, peuvent voir sous la lumière des étoiles et de la lune comme le ferait un humain au crépuscule. Ils sont capables de distinguer les couleurs et certains détails dans ces conditions, bien que tout soit enveloppé d’ombres. Ils ne possèdent aucune vision améliorée dans les souterrains, sous lumière de torche ou dans des environnements mal éclairés.
+
+## Sources de lumière
+
+| **Source** | **Clair jusqu’à** | **Assombri jusqu’à** | **Durée** |
+| --- | --- | --- | --- |
+| Brasero / Creuset | 15 mètres | 30 mètres | 4 heures |
+| Flammes d’un sort | 3 mètres | 6 mètres | Sortilège |
+| Feu de camp, petit | 9 mètres | 23 mètres | 2 heures |
+| Feu de camp, grand | 18 mètres | 45 mètres | 3 heures |
+| Bougie | 1,5 mètre | 4,5 mètres | 1 heure |
+| Lampe / Lanterne | 9 mètres | 18 mètres | 4 heures |
+| Lanterne directionnelle* | 18 mètres | 36 mètres | 4 heures |
+| Source de lave | 150 mètres | 300 mètres | N/A |
+| Lichen lumineux | 0,3 – 1,5 mètre | 0,6 – 2,4 mètres | N/A |
+| Sort de lumière | 12 mètres | 18 mètres | Sortilège |
+| Dague magique | 3 mètres | 3 mètres | Illimité |
+| Épée magique | 6 mètres | 6 mètres | Illimité |
+| Torche | 12 mètres | 18 mètres | 1 heure |
+
+**La lanterne directionnelle projette un cône de lumière au lieu d’une sphère.*
