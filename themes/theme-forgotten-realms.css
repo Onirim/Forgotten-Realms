@@ -122,7 +122,7 @@ body::before {
     /* Gradient de base — horizon lumineux */
     linear-gradient(175deg, #040710 0%, #08101e 45%, #0b1323 70%, #11214d 100%);
   opacity: 1;
-  animation: fr-stars-twinkle 16s ease-in-out infinite alternate;
+animation: fr-stars-twinkle 16s ease-in-out infinite alternate;
 }
 
 /* Couche dynamique : étoiles en croix + étoiles filantes */
@@ -152,7 +152,7 @@ body::after {
     69% 42%, 69% 42%,
     86% 17%, 86% 17%,
     -28% 18%,
-    135% 64%;
+    -60% 2%;
   opacity: 0;
   animation:
     fr-cross-stars 7s ease-in-out infinite,
@@ -178,7 +178,7 @@ body::after {
       69% 42%, 69% 42%,
       86% 17%, 86% 17%,
       -28% 18%,
-      135% 64%;
+      -60% 2%;
   }
   18%, 100% {
     background-position:
@@ -186,7 +186,7 @@ body::after {
       69% 42%, 69% 42%,
       86% 17%, 86% 17%,
       132% 74%,
-      -24% 21%;
+      100% 58%;
   }
 }
 
