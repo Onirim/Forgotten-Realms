@@ -187,6 +187,37 @@ Un personnage qui souhaite se désengager d’une mêlée peut la rompre via cet
 
 Un personnage qui quitte une mêlée sans la rompre subit une attaque d’opportunité de dos immédiate de la part de son adversaire (avec un bonus au toucher de +2 donc).
 
+# La magie
+
+## Les grimoires de sorts
+
+Les magiciens et illusionnistes doivent découvrir de nouveaux sorts par leurs propres moyens, par exemple en récupérant le grimoire d’un autre mage, en découvrant des parchemins, en échange de services, etc. La puissance d’un mage provient de la richesse de sa collection de sortilèges, ils sont donc très avares et ne partagent pas aisément leur savoir.
+
+**Taille et qualité des grimoires** : Les grimoires sont des livres spécifiquement reliés pour héberger des sorts. Sur leurs pages se retrouvent couchés les secrets les plus puissants des mages profanes, aussi ces derniers sont-ils de la meilleure qualité. En sachant que chaque sort nécessite une page de grimoire par niveau, il est possible de trouver deux types de grimoires courants.
+
+- Le grimoire classique comprend 200 pages, pèse 2 EC et coûte 100 po
+- Le grimoire de voyage comprend 100 pages, pèse 1 EC et coûte 50 po
+
+Entretenir et renforcer son grimoire fait partie de l’apprentissage de chaque mage (tout comme la maîtrise du sort Read Magic (Lecture de la magie). Aussi, un mage apprend t-il à enchanter son grimoire pour le rendre plus résistant au fil du temps, lui ajoutant runes, matériaux rares et enchantements mineurs spécifiques. 
+
+**Taille des sorts** : Un sort prend une certaine place dans un grimoire, qu’on estime à 1 page par niveau de sort (les sorts de niveau 0 comptent une page). Attention donc à ne pas dépasser la taille de votre grimoire !
+
+**Enchanter un grimoire** coûte 100 po, lui faisant gagner une résistance au sorts de 10 (si elle est passée, chaque sort doit être testé avec une résistance aux sorts de 5 ou être détruit), un bonus aux jets de sauvegarde (prime) de +1 et le rend résistant à tous les accidents de la vie (il peut tomber dans l’eau, passer dans les flammes ou se faire rouler dessus par un chariot sans dommages).
+
+Au fur et à mesure que le mage gagne des niveaux, il peut améliorer l’enchantement de son grimoire, augmentant le bonus au jet de sauvegarde de +1 (avec un maximum égal au niveau du mage) et doit dépenser 100 po par niveau de bonus au jet de sauvegarde visé.
+
+### Ajouter des sorts au grimoire
+
+**Gain de niveau** : Les magiciens et illusionnistes . Cela fait partie des études que chaque mage poursuit ainsi que de son entraînement avec un mentor, et le sort est ajouté au grimoire.
+
+**Déchiffrer un sort** : Lire et apprendre un sort que l’on a pas écrit soi-même demande le lancement du sort Read Magic (Lecture de la magie). Une fois l’écrit magique rendu lisible, il est possible de le recopier dans un grimoire (ou sur des feuilles de parchemin volante).
+
+**Inscrire le sort dans son grimoire** : Le processus d’inscription du sort dans son grimoire est un travail fastidieux car le lanceur doit le traduire à sa manière, le préparer pour son propre esprit. L’inscription peut se faire soit avec l’original (déchiffré) près de soi, soit depuis un sort mémorisé. Une semaine de travail permet d’inscrire jusqu’à 7 niveaux de sorts dans son grimoire, ou un seul sort s’il est au delà du niveau 7.
+
+**Acheter ou échanger un sort** : Certains mages acceptent de partager contre paiement leurs sorts durement acquis. Quand ils le font, c’est généralement à un tarif de 100 po par niveau du sort (50 po pour un sort de niveau 0). Trouver un mage acceptant de vendre un sort est soumis à une semaine de recherche et à un jet de charisme difficulté 15 + niveau du sort.
+
+Trouver un mage acceptant d’échanger un sort nécessite en général un jet de charisme dont la difficulté est 15 + niveau du lanceur de sort requis pour lancer le sort, et la recherche d’un tel arrangement prend une semaine.
+
 # Santé et soins
 
 Un personnage possède autant de dés de vie que son niveau (ajustés par son modificateur de constitution). A chaque nouveau niveau, le nouveau total de dés de vie sont lancés, ajustés par le modificateur de constitution, et ce total devient la nouvelle valeur des points de vie maximum du personnage. Si le nouveau total est moins élevé que le précédent, alors le précédent augmente de 1 point.
