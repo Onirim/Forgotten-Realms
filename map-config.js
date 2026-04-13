@@ -29,13 +29,13 @@ const MAP_CONFIG = {
       imageWidth:  2508,
       imageHeight: 1773,
     },
-    // {
-    //   key:         'dungeon',
-    //   name:        'Donjon',
-    //   image:       '/Camply/pictures/dungeon.png',
-    //   imageWidth:  2048,
-    //   imageHeight: 2048,
-    // },
+     {
+       key:         'trois_rivieres',
+       name:        'Vallée des Trois-rivières',
+       image:       './pictures/maps/trois_rivieres.jpg',
+       imageWidth:  2508,
+       imageHeight: 1773,
+     },
     // {
     //   key:         'region',
     //   name:        'Région Nord',
