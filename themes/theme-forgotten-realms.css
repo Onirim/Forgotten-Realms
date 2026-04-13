@@ -73,6 +73,13 @@ html, body {
   overflow: hidden;
 }
 
+/* Sur mobile, laisser le document défiler (sinon le scroll peut se bloquer). */
+@media (max-width: 768px) {
+  html, body { overflow: auto; height: auto; }
+  #app { height: auto; min-height: 100vh; overflow: visible; }
+  #main { overflow: visible; }
+}
+
 /* Ciel étoilé en fond fixe */
 body::before {
   content: '';
