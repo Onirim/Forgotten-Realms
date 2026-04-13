@@ -117,8 +117,6 @@ body::before {
     radial-gradient(1px 1px at 88% 85%, rgba(180,170,120,0.4) 0%, transparent 100%),
     radial-gradient(1px 1px at 5% 50%, rgba(200,190,140,0.5) 0%, transparent 100%),
     radial-gradient(1px 1px at 95% 30%, rgba(180,170,120,0.6) 0%, transparent 100%),
-    /* Lueur Mystra — nébuleuse arcane au centre */
-    radial-gradient(ellipse 70% 50% at 50% 50%, rgba(30,20,80,0.4) 0%, transparent 70%),
     /* Gradient de base — horizon lumineux */
     linear-gradient(175deg, #040710 0%, #08101e 45%, #0b1323 70%, #11214d 100%);
   opacity: 1;
