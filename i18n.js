@@ -276,6 +276,8 @@ const TRANSLATIONS = {
     share_code_prompt_short:'Code de partage :',
     transfer_type_map:       'Carte',
     transfer_code_hint_map:  'Code de la couche de carte (8 car.)',
+
+    // ── Carte ───────────────────────────────────────────────
     map_zoom_out_title:      'Zoom −',
     map_zoom_in_title:       'Zoom +',
     map_zoom_reset_title:    'Réinitialiser la vue',
@@ -314,6 +316,13 @@ const TRANSLATIONS = {
     map_toast_layer_already_followed:'Vous suivez déjà cette couche.',
     map_toast_layer_unsubscribed:   'Abonnement à la couche supprimé.',
     map_toast_layer_subscribed:     'Abonné à "${title}" !',
+    
+    // ── Export ───────────────────────────────────────────────
+    user_export_visible:            'Exporter mes données visibles',
+    export_in_progress:             'Export en cours…',
+    export_done:                    'Export prêt !',
+    export_error:                   'Échec de l’export',
+    export_error_zip_lib:           'Bibliothèque ZIP indisponible.',
   },
 
   // ════════════════════════════════════════════════════════════
@@ -577,6 +586,8 @@ const TRANSLATIONS = {
     share_code_prompt_short:'Share code:',
     transfer_type_map:       'Map layer',
     transfer_code_hint_map:  'Map layer code (8 chars)',
+
+    // ── Map ─────────────────────────────────────────────────
     map_zoom_out_title:      'Zoom out',
     map_zoom_in_title:       'Zoom in',
     map_zoom_reset_title:    'Reset view',
@@ -615,6 +626,13 @@ const TRANSLATIONS = {
     map_toast_layer_already_followed:'You are already following this layer.',
     map_toast_layer_unsubscribed:   'Layer subscription removed.',
     map_toast_layer_subscribed:     'Subscribed to "${title}"!',
+
+    // ── Export ───────────────────────────────────────────────
+    user_export_visible:            'Export visible data',
+    export_in_progress:             'Export in progress…',
+    export_done:                    'Export ready!',
+    export_error:                   'Export failed',
+    export_error_zip_lib:           'ZIP library unavailable.',
   },
 };
 
