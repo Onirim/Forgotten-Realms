@@ -36,13 +36,13 @@ const MAP_CONFIG = {
        imageWidth:  2508,
        imageHeight: 1773,
      },
-    // {
-    //   key:         'region',
-    //   name:        'Région Nord',
-    //   image:       '/Camply/pictures/region.png',
-    //   imageWidth:  4096,
-    //   imageHeight: 3000,
-    // },
+     {
+       key:         'donjon_iffre',
+       name:        'Donjon d''Iffre',
+       image:       './pictures/maps/donjon_iffre.jpg',
+       imageWidth:  2481,
+       imageHeight: 2481,
+     },
     // {
     //   key:         'sea',
     //   name:        'Carte Marine',
