@@ -38,7 +38,7 @@ const MAP_CONFIG = {
      },
      {
        key:         'donjon_iffre',
-       name:        'Donjon d''Iffre',
+       name:        'Donjon d\'Iffre',
        image:       './pictures/maps/donjon_iffre.jpg',
        imageWidth:  2481,
        imageHeight: 2481,
