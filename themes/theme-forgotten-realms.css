@@ -314,8 +314,8 @@ a:hover { color: #e0b050; }
 #topbar .share-btn svg { width: 13px; height: 13px; }
 
 @media (max-width: 768px) {
-  #topbar .share-btn { padding: 5px 8px; font-size: 10px; }
-  #topbar .share-btn svg { display: none; }
+  #topbar .share-btn { display: none; } /*{ padding: 5px 8px; font-size: 10px; }*/
+  /*#topbar .share-btn svg { display: none; }*/
 }
 
 
