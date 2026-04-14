@@ -201,13 +201,20 @@ a:hover { color: #e0b050; }
 }
 
 #topbar .logo         { grid-column: 1; grid-row: 1; }
-#topbar nav           { grid-column: 2; grid-row: 1; display: flex; gap: 2px; align-items: center; }
+#topbar nav {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  min-width: 0; /* autorise la réduction de la colonne grid et le wrap des boutons */
+}
 #topbar .topbar-right { grid-column: 3; grid-row: 1; display: flex; align-items: center; gap: 8px; }
 
 @media (max-width: 768px) {
   #topbar {
     grid-template-columns: 1fr auto;
-    grid-template-rows: 48px 36px;
+    grid-template-rows: 48px auto;
     padding: 0;
     gap: 0;
     position: sticky; top: 0;
@@ -217,11 +224,13 @@ a:hover { color: #e0b050; }
   #topbar nav {
     grid-column: 1 / -1; grid-row: 2;
     border-top: 1px solid var(--border);
-    padding: 0 4px;
-    overflow-x: auto;
-    scrollbar-width: none;
+    width: 100%;
+    padding: 4px;
+    flex-wrap: wrap !important;
+    row-gap: 4px;
+    overflow-x: visible !important;
+    scrollbar-width: auto;
   }
-  #topbar nav::-webkit-scrollbar { display: none; }
 }
 
 /* ── Logo — Cinzel Decorative autorisé (grand format) ── */
