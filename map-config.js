@@ -43,13 +43,13 @@ const MAP_CONFIG = {
        imageWidth:  2481,
        imageHeight: 2481,
      },
-    // {
-    //   key:         'sea',
-    //   name:        'Carte Marine',
-    //   image:       '/Camply/pictures/sea.png',
-    //   imageWidth:  5000,
-    //   imageHeight: 3500,
-    // },
+     {
+       key:         'donjon_myar_thalune',
+       name:        'Donjon de Myar\'Thalune',
+       image:       './pictures/maps/donjon_myar_thalune.jpg',
+       imageWidth:  2481,
+       imageHeight: 2481,
+     },
   ],
 
   // ── Comportement du zoom ──────────────────────────────────
