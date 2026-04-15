@@ -492,3 +492,84 @@ Il n’est pas possible de cumuler les points d’expériences au delà de la va
 ## Monter de niveau
 
 Une fois qu’un aventurier a acquis assez d’expérience pour progresser, il doit s’entraîner pendant une semaine complète afin de transformer ce qu’il a appris en connaissances solides.
+
+# Contenu homebrew
+
+## Profils de classes
+Les profils sont des modifications de classes permettant d’en changer la saveur moyennant de petits ajustements. La notion de profils provient d’Advanced Dungeons & Dragons 2e édition et permettait de créer de nouvelles classes en ajoutant et retirant des capacités. Une manière de faire plutôt simple et élégante !
+
+### Le Taromancien
+Le taromancien est une variante de l’illusionniste. Il diffère de ce dernier par sa façon d’organiser son grimoire ainsi que par ses intérêts davantage tournés vers la symbolique du tarot.
+
+**Ce qu’on enlève**
+
+- **Déguisement** : Le taromancien n’est pas un maître des illusions au sens propre, mais plutôt un maître des symboles.
+
+**Ce qu’on ajoute**
+
+- **Cartomancie (SAG) :** Le taromancien peut tirer les cartes afin d’obtenir des indications sur l’avenir. Le taromancien a 70% + 1% par niveau d’avoir une indication juste. Le MJ effectue le jet en secret pour le taromancien. Le taromancien peut poser une question précise, qui peut être répondue par oui ou non. Il peut également tenter d’obtenir des informations sur un sujet précis ou sur un événement à venir dans la limite d’une semaine. Chaque tirage prend 10 minutes et ne peut être effectué qu’une seule fois par semaine. Ces divinations classiques et peu précises que le taromancien réserve aux petites gens ne comptent pas dans les activations hebdomadaires de la capacité de cartomancie.
+
+## Nouvelles races
+
+### Les Tieffelins
+
+Les tieffelins sont des humains portant les traces d’une ascendance démoniaque. Bien que certains parviennent à surmonter ce legs maléfique pour devenir des individus bons et dignes de confiance, la plupart cèdent peu à peu aux ténèbres qui les tiraillent, devenant égoïstes, cruels et malfaisants avec le temps. Même ceux qui résistent à ces pulsions doivent lutter constamment contre des pensées violentes et corrompues, connaissant rarement la paix intérieure dont jouissent tant d'autres créatures d'alignement bon.
+
+Les tieffelins sont discrets, manipulateurs, et souvent égocentriques. Peu leur font confiance, et eux-mêmes n’accordent leur confiance à personne. Ils savent qu’en dépit de leur comportement, ils seront probablement accusés au moindre problème. Cette réalité forge leur méfiance : ils doutent de toute gentillesse et n’attendent jamais qu’un membre d’une autre race leur reste loyal ou amical une fois leur sang maudit découvert.
+
+Beaucoup de tieffelins passent pour des humains. D'autres arborent de petites cornes, des dents pointues, des yeux rouges, une odeur de soufre, ou même des sabots fendus. Aucun tieffelin ne ressemble à un autre. Rusés et subtils, ils préfèrent les embuscades aux affrontements équitables.
+
+# **Traits et Capacités Raciales**
+
+**Vision dans le noir** : Les tieffelins peuvent voir dans l'obscurité totale jusqu’à **18 mètres**. Cette vision produit des images en nuances de gris, mais fonctionne autrement comme la vision normale. Ils peuvent ainsi se déplacer sans lumière. Toutefois, une lumière vive (torche, lanterne, etc.) nuit à cette perception. Le tieffelin a besoin d’un round pour réadapter sa vision après extinction d’une source lumineuse.
+
+**Capacité spéciale aléatoire :** Chaque tieffelin est unique. Lors de la création du personnage, lancez un **d100** et consultez la table ci-dessous pour déterminer une capacité spéciale.
+
+| d100 | Capacité |
+| --- | --- |
+| 01–03 | Blur (Flou) 1×/jour |
+| 04–06 | Burning Hands (Mains Brulantes) 1×/jour |
+| 07–09 | Charm Person (Charme personne) 1×/jour |
+| 10–12 | Comprehend Languages (Compréhension des langages) 1×/jour |
+| 13–15 | Darkness (Ténèbres) 1×/jour |
+| 16–18 | Detect Neutrality (Détection de la neutralité) 2×/jour |
+| 19–21 | Detect Magic (Détection de la magie) 3×/jour |
+| 22–24 | Detect Thoughts (Détection des pensées) 1×/jour |
+| 25–27 | Invisibility (Invisibilité) 2×/semaine |
+| 28–30 | Detect Alignment (Détection des alignements) 2×/jour |
+| 31–33 | Mirror Images (Images miroir) 1×/jour |
+| 34–36 | Misdirection (Détection faussée) 1×/jour |
+| 37–39 | Pyrotechnics (Pyrotechnie) 3×/semaine |
+| 40–42 | Shoking Grasp (Poigne électrique) 1×/jour |
+| 43–45 | Suggestion (Suggestion) 1×/semaine |
+| 46–48 | Summon Swarm (Convocation de nuées) 1×/semaine |
+| 49–51 | Résistance au feu |
+| 52–55 | Résistance au froid |
+| 56–59 | Résistance à l’électricité |
+| 60–63 | Résistance à l’acide |
+| 64–67 | +2 aux jets de sauvegarde de Force |
+| 68–75 | +2 aux jets de sauvegarde de Dextérité |
+| 76–79 | +2 aux jets de sauvegarde de Constitution |
+| 80–83 | +2 aux jets de sauvegarde d’Intelligence |
+| 84–87 | +2 aux jets de sauvegarde de Sagesse |
+| 88–91 | +2 aux jets de sauvegarde de Charisme |
+| 92 | Immunité au feu |
+| 93 | Immunité au froid |
+| 94 | Immunité à l’électricité |
+| 95 | Immunité à l’acide |
+| 96–98 | Lancez deux fois (relancez les résultats 95 ou plus) |
+| 99–00 | Lancez trois fois (relancez les résultats 95 ou plus) |
+
+**Langue(s)** : Commun, Infernal
+
+**Langues supplémentaires possibles** : Draconique, Nain, Elfe, Gnome, Gobelin, Halfelin
+
+**Taille** : Moyenne
+
+**Déplacement** : 9 mètres par round
+
+**Classes typiques** : Clerc, Guerrier, Voleur, Magicien
+
+**Modificateurs d’attributs :** -1 Force, +1 Intelligence, -1 Sagesse, +1 Charisme
+
+**Bonus de compétences :** +1 en déchiffrage des écritures, +1 en détection de pièges, +2 en dissimulation, +2 en déplacement silencieux
