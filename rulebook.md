@@ -519,11 +519,10 @@ Les tieffelins sont discrets, manipulateurs, et souvent égocentriques. Peu leur
 
 Beaucoup de tieffelins passent pour des humains. D'autres arborent de petites cornes, des dents pointues, des yeux rouges, une odeur de soufre, ou même des sabots fendus. Aucun tieffelin ne ressemble à un autre. Rusés et subtils, ils préfèrent les embuscades aux affrontements équitables.
 
-# **Traits et Capacités Raciales**
+**Traits et Capacités Raciales**
 
-**Vision dans le noir** : Les tieffelins peuvent voir dans l'obscurité totale jusqu’à **18 mètres**. Cette vision produit des images en nuances de gris, mais fonctionne autrement comme la vision normale. Ils peuvent ainsi se déplacer sans lumière. Toutefois, une lumière vive (torche, lanterne, etc.) nuit à cette perception. Le tieffelin a besoin d’un round pour réadapter sa vision après extinction d’une source lumineuse.
-
-**Capacité spéciale aléatoire :** Chaque tieffelin est unique. Lors de la création du personnage, lancez un **d100** et consultez la table ci-dessous pour déterminer une capacité spéciale.
+- **Vision dans le noir** : Les tieffelins peuvent voir dans l'obscurité totale jusqu’à **18 mètres**. Cette vision produit des images en nuances de gris, mais fonctionne autrement comme la vision normale. Ils peuvent ainsi se déplacer sans lumière. Toutefois, une lumière vive (torche, lanterne, etc.) nuit à cette perception. Le tieffelin a besoin d’un round pour réadapter sa vision après extinction d’une source lumineuse.
+- **Capacité spéciale aléatoire :** Chaque tieffelin est unique. Lors de la création du personnage, lancez un **d100** et consultez la table ci-dessous pour déterminer une capacité spéciale.
 
 | d100 | Capacité |
 | --- | --- |
@@ -560,16 +559,10 @@ Beaucoup de tieffelins passent pour des humains. D'autres arborent de petites co
 | 96–98 | Lancez deux fois (relancez les résultats 95 ou plus) |
 | 99–00 | Lancez trois fois (relancez les résultats 95 ou plus) |
 
-**Langue(s)** : Commun, Infernal
-
-**Langues supplémentaires possibles** : Draconique, Nain, Elfe, Gnome, Gobelin, Halfelin
-
-**Taille** : Moyenne
-
-**Déplacement** : 9 mètres par round
-
-**Classes typiques** : Clerc, Guerrier, Voleur, Magicien
-
-**Modificateurs d’attributs :** -1 Force, +1 Intelligence, -1 Sagesse, +1 Charisme
-
-**Bonus de compétences :** +1 en déchiffrage des écritures, +1 en détection de pièges, +2 en dissimulation, +2 en déplacement silencieux
+- **Langue(s)** : Commun, Infernal
+- **Langues supplémentaires possibles** : Draconique, Nain, Elfe, Gnome, Gobelin, Halfelin
+- **Taille** : Moyenne
+- **Déplacement** : 9 mètres par round
+- **Classes typiques** : Clerc, Guerrier, Voleur, Magicien
+- **Modificateurs d’attributs :** -1 Force, +1 Intelligence, -1 Sagesse, +1 Charisme
+- **Bonus de compétences :** +1 en déchiffrage des écritures, +1 en détection de pièges, +2 en dissimulation, +2 en déplacement silencieux
