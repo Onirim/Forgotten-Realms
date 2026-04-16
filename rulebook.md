@@ -1,3 +1,12 @@
+# Campagne dans les Royaumes Oubliés de 1987
+
+Avant le Temps des Troubles qui remanie le panthéon pour correspondre aux règles de jeu de la seconde édition d'Advanced Dungeons & Dragons, il y avait la fameuse "Boite Grise", la première édition des Royaumes Oubliés faite pour la première édition d'Advanced Dungeons & Dragons. C'est cette période que nous allons explorer, avant que les romans et les suppléments ne viennent alourdir et surcharger cet univers. La campagne sera propulsée par Castles & Crusades, qui est une réécriture sur un chassis de jeu moderne de la première édition d'Advanced Dungeons & Dragons.
+
+## Concepts principaux
+
+- Lorsque la campagne est active, le temps entre les sesions est identique au temps qui passe dans la vraie vie. Une semaine entre deux sessions c'est donc une semaine durant laquelle les personnages pourront s'engager dans des activités dites de temps morts.
+- La campagne fonctionne en mode West Marches, c'est à dire qu'à la fin d'une séance de jeu, les personnages sont supposés être retournés à un lieu sécurisé (un village, une ville, un campement).
+
 # Les caractéristiques
 
 Au nombre de 6, les caractéristiques d’un personnage permettent de le définir au delà de sa classe, de sa race et de son niveau.
@@ -429,7 +438,7 @@ Une nuit est composée de 3 tours de gardes, et un personnage ne peut faire qu�
 
 Les donjons sont des lieux sinistres où la nourriture est rare, il est donc très importants d’emporter des provisions avec soi. Lorsque les PJ n’ont plus de rations, ils peuvent tenter de cuisiner ce qu’ils trouvent dans le donjon, et ce sont en général des créatures qui y habitent. Réussir à faire un repas improvisé dans un donjon nécessite un jet de survie (rôdeur), de connaissance de la nature (druide) ou de cuisine (compétence secondaire) réussi.
 
-# Activités hors aventure
+# Les temps morts
 
 En dehors des aventures, le passage du temps est compté en semaines. Pour chaque semaine, un personnage peut s’adosser à diverses activités, dont certaines sont codifiées.
 
