@@ -25,7 +25,7 @@ const MAP_CONFIG = {
     {
       key:         'larmil',
       name:        'Vallée du Larmil',
-      image:       './pictures/maps/larmil.jpg',
+      image:       './pictures/maps/larmil.png',
       imageWidth:  2508,
       imageHeight: 1773,
     },
