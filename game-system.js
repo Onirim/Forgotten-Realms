@@ -171,10 +171,10 @@ function renderCharSheet(data) {
 const GAME_I18N = {
   fr: {
     // Identité
-    editor_field_subtitle:     'Titre / Occupation',
-    editor_field_subtitle_ph:  'Ex : Guerrier, Mage, Voleur…',
-    editor_field_race_class:   'Race / Classe',
-    editor_field_race_class_ph:'Ex : Elfe Rôdeur, Humain Paladin…',
+    editor_field_subtitle:     'Classe / Occupation',
+    editor_field_subtitle_ph:  'Ex : Guerrier, Mage, Voleur, Serveuse, Noble',
+    editor_field_race_class:   'Race / Ethnie',
+    editor_field_race_class_ph:'Ex : Elfe du soleil, Humain du Chondath',
     editor_field_level:        'Niveau',
 
     // Carte roster
@@ -221,10 +221,10 @@ const GAME_I18N = {
   },
 
   en: {
-    editor_field_subtitle:     'Title / Occupation',
+    editor_field_subtitle:     'Class / Occupation',
     editor_field_subtitle_ph:  'E.g. Warrior, Mage, Rogue…',
-    editor_field_race_class:   'Race / Class',
-    editor_field_race_class_ph:'E.g. Elf Ranger, Human Paladin…',
+    editor_field_race_class:   'Race / Ethnics',
+    editor_field_race_class_ph:'E.g. Sun elf, Human of Chondath…',
     editor_field_level:        'Level',
 
     card_level: 'Lv. ',
