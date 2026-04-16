@@ -32,7 +32,7 @@ const MAP_CONFIG = {
      {
        key:         'trois_rivieres',
        name:        'Vallée des Trois-rivières',
-       image:       './pictures/maps/trois_rivieres.jpg',
+       image:       './pictures/maps/trois_rivieres.png',
        imageWidth:  2508,
        imageHeight: 1773,
      },
