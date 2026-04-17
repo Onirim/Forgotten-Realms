@@ -19,7 +19,8 @@ function freshState() {
   return {
     name:                  '',
     subtitle:              '',      // titre / occupation
-    race_class:            '',      // race / classe
+    race_class:            '',      // race / ethnie
+    char_class:            '',      // classe
     level:                 0,       // 0 = pas de niveau affiché
     is_public:             false,
     illustration_url:      '',
@@ -44,15 +45,29 @@ function _clamp(v, min, max) {
   return Math.max(min, Math.min(max, v));
 }
 
+function _extractRaceAndClass(character) {
+  const race = String(character.race_class || '').trim();
+  const cls  = String(character.char_class || '').trim();
+  if (cls || !race.includes('/')) return { race, cls };
+  const [legacyRace, ...legacyClassParts] = race.split('/');
+  return {
+    race: legacyRace.trim(),
+    cls: legacyClassParts.join('/').trim(),
+  };
+}
+
 
 // ══════════════════════════════════════════════════════════════
 // 4. RENDU CARTE ROSTER
 // ══════════════════════════════════════════════════════════════
 
 function renderCharCardBody(c) {
-  // Race/classe + niveau (niveau masqué si 0)
-  const rcTag = c.race_class
-    ? `<span class="card-rc-tag">${esc(c.race_class)}</span>` : '';
+  const { race, cls } = _extractRaceAndClass(c);
+  // Race + classe + niveau (niveau masqué si 0)
+  const raceTag = race
+    ? `<span class="card-rc-tag">${esc(race)}</span>` : '';
+  const classTag = cls
+    ? `<span class="card-rc-tag">${esc(cls)}</span>` : '';
   const lvlTag = c.level !== undefined && c.level !== 0 && c.level !== null
     ? `<span class="card-rank">${t('card_level')}${c.level}</span>` : '';
 
@@ -70,7 +85,7 @@ function renderCharCardBody(c) {
     <div class="card-name">${esc(c.name) || '—'}</div>
     ${c.subtitle ? `<div class="card-sub">${esc(c.subtitle)}</div>` : ''}
     <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px">
-      ${rcTag}${lvlTag}
+      ${raceTag}${classTag}${lvlTag}
     </div>
     ${descriptionHtml}
   `;
@@ -82,6 +97,7 @@ function renderCharCardBody(c) {
 // ══════════════════════════════════════════════════════════════
 
 function renderCharSheet(data) {
+  const { race, cls } = _extractRaceAndClass(data);
 
   // ── Illustration ──────────────────────────────────────────
   const illusHtml = data.illustration_url
@@ -91,8 +107,10 @@ function renderCharSheet(data) {
          onclick="openLightbox('${esc(data.illustration_url)}')" alt="">` : '';
 
   // ── En-tête ───────────────────────────────────────────────
-  const rcTag = data.race_class
-    ? `<span class="card-rc-tag" style="margin-top:8px">${esc(data.race_class)}</span>` : '';
+  const raceTag = race
+    ? `<span class="card-rc-tag" style="margin-top:8px">${esc(race)}</span>` : '';
+  const classTag = cls
+    ? `<span class="card-rc-tag" style="margin-top:8px">${esc(cls)}</span>` : '';
 
   // Niveau masqué si 0 ou null
   const lvlBadge = data.level !== undefined && data.level !== 0 && data.level !== null
@@ -103,7 +121,8 @@ function renderCharSheet(data) {
       <div class="preview-name">${esc(data.name) || '—'}</div>
       ${data.subtitle ? `<div class="preview-sub">${esc(data.subtitle)}</div>` : ''}
       <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px">
-        ${rcTag}
+        ${raceTag}
+        ${classTag}
         ${lvlBadge}
       </div>
     </div>`;
@@ -171,10 +190,12 @@ function renderCharSheet(data) {
 const GAME_I18N = {
   fr: {
     // Identité
-    editor_field_subtitle:     'Classe / Occupation',
-    editor_field_subtitle_ph:  'Ex : Guerrier, Mage, Voleur, Serveuse, Noble',
+    editor_field_subtitle:     'Titre / Occupation',
+    editor_field_subtitle_ph:  'Ex : Capitaine de garde, Alchimiste, Archiviste',
     editor_field_race_class:   'Race / Ethnie',
     editor_field_race_class_ph:'Ex : Elfe du soleil, Humain du Chondath',
+    editor_field_class:        'Classe',
+    editor_field_class_ph:     'Ex : Guerrier, Mage, Rôdeur',
     editor_field_level:        'Niveau',
 
     // Carte roster
@@ -221,10 +242,12 @@ const GAME_I18N = {
   },
 
   en: {
-    editor_field_subtitle:     'Class / Occupation',
-    editor_field_subtitle_ph:  'E.g. Warrior, Mage, Rogue…',
-    editor_field_race_class:   'Race / Ethnics',
+    editor_field_subtitle:     'Title / Occupation',
+    editor_field_subtitle_ph:  'E.g. City Watch Captain, Alchemist, Archivist…',
+    editor_field_race_class:   'Race / Ethnicity',
     editor_field_race_class_ph:'E.g. Sun elf, Human of Chondath…',
+    editor_field_class:        'Class',
+    editor_field_class_ph:     'E.g. Warrior, Mage, Ranger…',
     editor_field_level:        'Level',
 
     card_level: 'Lv. ',

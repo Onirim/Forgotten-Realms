@@ -29,9 +29,19 @@ function editChar(id, dataOverride) {
 }
 
 function populateEditor() {
+  if (!state.char_class && typeof state.race_class === 'string' && state.race_class.includes('/')) {
+    const [legacyRace, ...legacyClassParts] = state.race_class.split('/');
+    const legacyClass = legacyClassParts.join('/').trim();
+    if (legacyClass) {
+      state.race_class = legacyRace.trim();
+      state.char_class = legacyClass;
+    }
+  }
+
   document.getElementById('f-name').value       = state.name || '';
   document.getElementById('f-sub').value        = state.subtitle || '';
   document.getElementById('f-race-class').value = state.race_class || '';
+  document.getElementById('f-class').value      = state.char_class || '';
   document.getElementById('f-level').value      = state.level ?? 0;
   const lvlDisplay = document.getElementById('level-display');
   if (lvlDisplay) lvlDisplay.textContent = state.level ?? 0;
@@ -285,6 +295,7 @@ function updatePreview() {
   state.name       = document.getElementById('f-name').value;
   state.subtitle   = document.getElementById('f-sub').value;
   state.race_class = document.getElementById('f-race-class').value;
+  state.char_class = document.getElementById('f-class').value;
   state.level      = parseInt(document.getElementById('f-level')?.value) ?? 0;
   state.description = document.getElementById('f-description')?.value || state.description || '';
   state.background = document.getElementById('f-background')?.value || state.background || '';
