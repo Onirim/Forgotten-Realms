@@ -65,11 +65,11 @@ function renderCharCardBody(c) {
   const { race, cls } = _extractRaceAndClass(c);
   // Race + classe + niveau (niveau masqué si 0)
   const raceTag = race
-    ? `<span class="card-rc-tag">${esc(race)}</span>` : '';
+    ? `<span class="card-meta-tag card-meta-tag-race">${esc(race)}</span>` : '';
   const classTag = cls
-    ? `<span class="card-rc-tag">${esc(cls)}</span>` : '';
+    ? `<span class="card-meta-tag card-meta-tag-class">${esc(cls)}</span>` : '';
   const lvlTag = c.level !== undefined && c.level !== 0 && c.level !== null
-    ? `<span class="card-rank">${t('card_level')}${c.level}</span>` : '';
+    ? `<span class="card-meta-tag card-meta-tag-level">${t('card_level')}${c.level}</span>` : '';
 
   // Extrait de la description (tronqué)
   const rawDescription = String(c.description || '').replace(/\s+/g, ' ').trim();
@@ -108,13 +108,13 @@ function renderCharSheet(data) {
 
   // ── En-tête ───────────────────────────────────────────────
   const raceTag = race
-    ? `<span class="card-rc-tag" style="margin-top:8px">${esc(race)}</span>` : '';
+    ? `<span class="card-meta-tag card-meta-tag-race">${esc(race)}</span>` : '';
   const classTag = cls
-    ? `<span class="card-rc-tag" style="margin-top:8px">${esc(cls)}</span>` : '';
+    ? `<span class="card-meta-tag card-meta-tag-class">${esc(cls)}</span>` : '';
 
   // Niveau masqué si 0 ou null
   const lvlBadge = data.level !== undefined && data.level !== 0 && data.level !== null
-    ? `<div class="preview-rank-badge">${t('card_level')}${data.level ?? 0}</div>` : '';
+    ? `<span class="card-meta-tag card-meta-tag-level">${t('card_level')}${data.level ?? 0}</span>` : '';
 
   const headerHtml = `
     <div class="preview-header">
