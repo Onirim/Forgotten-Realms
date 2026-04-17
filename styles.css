@@ -204,6 +204,29 @@ html, body {
   border: 1px solid rgba(124,140,255,0.20);
   padding: 1px 7px; border-radius: 4px;
 }
+.card-meta-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 1px 7px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+.card-meta-tag-race {
+  background: rgba(68, 170, 119, 0.14);
+  color: #74d5a2;
+  border-color: rgba(68, 170, 119, 0.30);
+}
+.card-meta-tag-class {
+  background: rgba(232, 196, 106, 0.14);
+  color: #f0cc7a;
+  border-color: rgba(232, 196, 106, 0.30);
+}
+.card-meta-tag-level {
+  background: rgba(124, 140, 255, 0.14);
+  color: #a3b0ff;
+  border-color: rgba(124, 140, 255, 0.30);
+}
 .char-card .card-attrs { display: flex; gap: 12px; }
 .card-attr     { text-align: center; }
 .card-attr .val { font-family: var(--font-mono); font-size: 20px; font-weight: 700; }
