@@ -311,10 +311,18 @@
           </div>
       
           <div class="field">
-            <label data-i18n="editor_field_race_class">Race / Classe</label>
+            <label data-i18n="editor_field_race_class">Race / Ethnie</label>
             <input type="text" id="f-race-class"
               data-i18n="editor_field_race_class_ph" data-i18n-attr="placeholder"
-              placeholder="Ex : Elfe Rôdeur…"
+              placeholder="Ex : Elfe du soleil"
+              oninput="updatePreview()">
+          </div>
+
+          <div class="field">
+            <label data-i18n="editor_field_class">Classe</label>
+            <input type="text" id="f-class"
+              data-i18n="editor_field_class_ph" data-i18n-attr="placeholder"
+              placeholder="Ex : Rôdeur"
               oninput="updatePreview()">
           </div>
       
