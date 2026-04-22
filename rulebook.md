@@ -4,7 +4,7 @@ Avant le Temps des Troubles qui remanie le panthéon pour correspondre aux règl
 
 ## Concepts principaux
 
-- Lorsque la campagne est active, le temps entre les sesions est identique au temps qui passe dans la vraie vie. Une semaine entre deux sessions c'est donc une semaine durant laquelle les personnages pourront s'engager dans des activités dites de temps morts.
+- Lorsque la campagne est active, le temps entre les sessions est identique au temps qui passe dans la vraie vie. Une semaine entre deux sessions c'est donc une semaine durant laquelle les personnages pourront s'engager dans des activités dites de temps morts.
 - La campagne fonctionne en mode West Marches, c'est à dire qu'à la fin d'une séance de jeu, les personnages sont supposés être retournés à un lieu sécurisé (un village, une ville, un campement).
 
 # Les caractéristiques
@@ -510,13 +510,13 @@ Les profils sont des modifications de classes permettant d’en changer la saveu
 ### Le Taromancien
 Le taromancien est une variante de l’illusionniste. Il diffère de ce dernier par sa façon d’organiser son grimoire ainsi que par ses intérêts davantage tournés vers la symbolique du tarot.
 
-**Ce qu’on enlève**
+**Supprimé :**
 
 - **Déguisement** : Le taromancien n’est pas un maître des illusions au sens propre, mais plutôt un maître des symboles.
 
-**Ce qu’on ajoute**
+**Ajouté :**
 
-- **Cartomancie (SAG) :** Le taromancien peut tirer les cartes afin d’obtenir des indications sur l’avenir. Le taromancien a 70% + 1% par niveau d’avoir une indication juste. Le MJ effectue le jet en secret pour le taromancien. Le taromancien peut poser une question précise, qui peut être répondue par oui ou non. Il peut également tenter d’obtenir des informations sur un sujet précis ou sur un événement à venir dans la limite d’une semaine. Chaque tirage prend 10 minutes et ne peut être effectué qu’une seule fois par semaine. Ces divinations classiques et peu précises que le taromancien réserve aux petites gens ne comptent pas dans les activations hebdomadaires de la capacité de cartomancie.
+- **Cartomancie (INT) :** Le taromancien peut tirer les cartes afin d’obtenir des indications sur l’avenir. La précision de la divination dépend de la qualité d'un test d'intelligence (diff 10 pour une indication vague, 15 pour une indication correcte, 20 pour une indication précise). Le MJ effectue le jet en secret pour le taromancien. Le taromancien peut poser une question précise, qui peut être répondue par oui ou non. Il peut également tenter d’obtenir des informations sur un sujet précis ou sur un événement à venir dans la limite d’une semaine. Chaque tirage prend 10 minutes et ne peut être effectué qu’une seule fois par semaine. Ces divinations classiques et peu précises que le taromancien réserve aux petites gens ne comptent pas dans les activations hebdomadaires de la capacité de cartomancie.
 
 ## Nouvelles races
 
