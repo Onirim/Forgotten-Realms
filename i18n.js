@@ -317,6 +317,7 @@ const TRANSLATIONS = {
     map_toast_layer_unsubscribed:   'Abonnement à la couche supprimé.',
     map_toast_layer_subscribed:     'Abonné à "${title}" !',
     map_access_denied:       'Cette carte n\'est pas partagée avec vous. Seuls les administrateurs peuvent y accéder.',
+    map_toast_map_locked:           'Cette carte n\'est pas accessible pour votre compte.',
     
     // ── Export ───────────────────────────────────────────────
     user_export_visible:            'Exporter mes données visibles',
@@ -627,7 +628,8 @@ const TRANSLATIONS = {
     map_toast_layer_already_followed:'You are already following this layer.',
     map_toast_layer_unsubscribed:   'Layer subscription removed.',
     map_toast_layer_subscribed:     'Subscribed to "${title}"!',
-    map_toast_map_locked:           'Cette carte n\'est pas accessible pour votre compte.',
+    map_access_denied:       'This map is not shared with you. Only admins can access it.',
+    map_toast_map_locked:           'This map is not accessible for your account.',
 
     // ── Export ───────────────────────────────────────────────
     user_export_visible:            'Export visible data',
