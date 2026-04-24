@@ -10,6 +10,7 @@ let mapFollowedLayers = {};   // layerId → { layer, markers: {id→marker} }
 let mapOwnLayers      = {};   // map_key → layer
 let mapFollowedIds    = [];   // [layerId, ...]
 let mapLoaded         = false;
+let mapAccessByKey    = {};
 
 // Transformation courante
 let mapTransform = { x: 0, y: 0, scale: 1 };
@@ -51,6 +52,84 @@ function _isMarkerOnCurrentMap(marker) {
   return _normalizeMapKey(marker?.map_key) === currentMapKey;
 }
 
+function _normalizeDiscordName(name) {
+  return (name || '')
+    .trim()
+    .replace(/^@+/, '')
+    .replace(/#\d+$/, '')
+    .toLowerCase();
+}
+
+function _getCurrentDiscordNames() {
+  if (!currentUser) return [];
+  const meta = currentUser.user_metadata || {};
+  // IMPORTANT: on s'aligne volontairement sur le nom affiché
+  // dans le menu utilisateur (updateUserUI dans scripts.js).
+  const displayedName = meta.full_name
+    || meta.name
+    || meta.username
+    || (currentUser.email ? currentUser.email.split('@')[0] : '');
+
+  return [displayedName]
+    .map(_normalizeDiscordName)
+    .filter(Boolean);
+}
+
+function _isMapAdmin() {
+  const admins = (globalThis.APP_CONFIG?.adminDiscordUsers || [])
+    .map(_normalizeDiscordName)
+    .filter(Boolean);
+  if (!admins.length) return false;
+  const names = _getCurrentDiscordNames();
+  return names.some(n => admins.includes(n));
+}
+
+function _recomputeMapAccess() {
+  const keys = (MAP_CONFIG.maps || []).map(m => m.key);
+  const canSeeAll = _isMapAdmin();
+  mapAccessByKey = {};
+
+  if (canSeeAll) {
+    keys.forEach(k => { mapAccessByKey[k] = true; });
+    return;
+  }
+
+  const granted = new Set();
+  Object.keys(mapOwnLayers || {}).forEach(k => granted.add(_normalizeMapKey(k)));
+  Object.values(mapFollowedLayers || {}).forEach(({ layer }) => {
+    granted.add(_normalizeMapKey(layer?.map_key));
+  });
+  keys.forEach(k => { mapAccessByKey[k] = granted.has(_normalizeMapKey(k)); });
+}
+
+function _canAccessMap(mapKey = currentMapKey) {
+  return !!mapAccessByKey[_normalizeMapKey(mapKey)];
+}
+
+function _firstAccessibleMapKey() {
+  const maps = MAP_CONFIG.maps || [];
+  const first = maps.find(m => _canAccessMap(m.key));
+  return first?.key || null;
+}
+
+function _renderMapAccessState() {
+  if (!_mapViewport) return;
+  let msg = document.getElementById('map-no-access');
+  if (!msg) {
+    msg = document.createElement('div');
+    msg.id = 'map-no-access';
+    msg.className = 'map-no-access';
+    _mapViewport.appendChild(msg);
+  }
+  msg.textContent = t('map_access_denied');
+  msg.style.display = _canAccessMap() ? 'none' : 'flex';
+
+  const markerCount = document.getElementById('map-marker-count');
+  if (markerCount && !_canAccessMap()) {
+    markerCount.innerHTML = ti('map_marker_count_many', { n: 0 });
+  }
+}
+
 // ══════════════════════════════════════════════════════════════
 // INIT
 // ══════════════════════════════════════════════════════════════
@@ -67,17 +146,27 @@ async function initMap() {
   if (!currentMapKey) currentMapKey = maps[0].key;
 
   _buildMapSelector();
-  _buildMapImage();
   _bindMapEvents();
 
   await Promise.all([
-    loadMapMarkersFromDB(),
     loadAllOwnLayersFromDB(),
     loadFollowedLayersFromDB(),
   ]);
 
+  _recomputeMapAccess();
+  const fallbackMap = _firstAccessibleMapKey();
+  if (!_canAccessMap(currentMapKey) && fallbackMap) {
+    currentMapKey = fallbackMap;
+  }
+
+  await loadMapMarkersFromDB();
+  _refreshMapSelectorAccess();
+  _buildMapImage();
+
+
   _renderAllMarkers();
   _renderLayerPanel();
+  _renderMapAccessState();
   mapLoaded = true;
 }
 
