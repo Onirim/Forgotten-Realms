@@ -36,6 +36,13 @@ const MAP_CONFIG = {
        imageWidth:  2508,
        imageHeight: 1773,
      },
+    {
+       key:         'yartar',
+       name:        'Bourg de Yartar',
+       image:       './pictures/maps/yartar.png',
+       imageWidth:  3237,
+       imageHeight: 3002,
+     },
      {
        key:         'donjon_iffre',
        name:        'Donjon d\'Iffre',
