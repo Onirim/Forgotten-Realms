@@ -316,6 +316,7 @@ const TRANSLATIONS = {
     map_toast_layer_already_followed:'Vous suivez déjà cette couche.',
     map_toast_layer_unsubscribed:   'Abonnement à la couche supprimé.',
     map_toast_layer_subscribed:     'Abonné à "${title}" !',
+    map_access_denied:       'Cette carte n\'est pas partagée avec vous. Seuls les administrateurs peuvent y accéder.',
     
     // ── Export ───────────────────────────────────────────────
     user_export_visible:            'Exporter mes données visibles',
@@ -626,6 +627,7 @@ const TRANSLATIONS = {
     map_toast_layer_already_followed:'You are already following this layer.',
     map_toast_layer_unsubscribed:   'Layer subscription removed.',
     map_toast_layer_subscribed:     'Subscribed to "${title}"!',
+    map_toast_map_locked:           'Cette carte n\'est pas accessible pour votre compte.',
 
     // ── Export ───────────────────────────────────────────────
     user_export_visible:            'Export visible data',
